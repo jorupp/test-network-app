@@ -1,6 +1,6 @@
 function Page({ data }: {data: string}) {
     return <div>
-        <h2>Data from google via HTTP</h2>
+        <h2>Data from google via HTTPS</h2>
         <div style={{ width: '80vw'}}><code>{data}</code></div>
     </div>
 }
